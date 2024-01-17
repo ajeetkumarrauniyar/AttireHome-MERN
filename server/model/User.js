@@ -34,7 +34,3 @@ const  UserSchema= new mongoose.Schema({
 
 })
 module.exports=mongoose.model("User",UserSchema)
-
-// //cart:{
-//     items:[{productid:{type:schema.Types.ObjectId,ref:'Product',required:true},quantity:{type:Number,required:true}}]
-// }
